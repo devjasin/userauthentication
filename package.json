@@ -1,0 +1,20 @@
+{
+  "name": "userregister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  }
+}
